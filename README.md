@@ -2,8 +2,8 @@
 Requirements : <br>
 python3.x <br>
 django = pip install django <br>
-crispy forms = pip install crispy <br>
-recaptcha = pip install captcha <br>
+crispy forms = pip install django-crispy-forms <br>
+recaptcha = pip install django-recaptcha <br>
 Pillow = python -m pip install --upgrade Pillow <br> <br>
 
 
