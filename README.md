@@ -1,10 +1,10 @@
 # django-project
-Requirements :
+Requirements : <br>
 python3.x <br>
-django = pip install django
-crispy forms = pip install crispy
-recaptcha = pip install captcha
-Pillow = python -m pip install --upgrade Pillow
+django = pip install django <br>
+crispy forms = pip install crispy <br>
+recaptcha = pip install captcha <br>
+Pillow = python -m pip install --upgrade Pillow <br> <br>
 
 
 <img width="960" alt="2" src="https://user-images.githubusercontent.com/75789726/174831664-424a68ce-b35e-4ca0-b540-d27258fdcfd1.png">
