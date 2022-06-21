@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>Update</h2>
+						<div class="page_link">
+							<a href="index.html">Home</a>
+							<a href="single-blog.html">Profile</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+
+        <!--================Register Form =================-->
+        <section class="blog_area p_120 single-post-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h4 style="text-align: center;">Profil Güncelleme Formu</h4>
+                            {% crispy form %}
+        			</div>
+                    {% include 'right_side.html' %}
+                </div>
+            </div>
+        </section>
+        <!--================Register Form =================-->
+
+{% endblock %}
